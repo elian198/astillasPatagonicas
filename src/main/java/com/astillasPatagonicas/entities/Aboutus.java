@@ -26,4 +26,12 @@ public class Aboutus {
     public void setAboutUsDescription(String aboutUsDescription) {
         this.aboutUsDescription = aboutUsDescription;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
